@@ -141,8 +141,8 @@ d2 = gcor_list
 df1 = pd.DataFrame(d1)
 df2 = pd.DataFrame(d2)
 
-df1.to_csv('/public3/home/scg5453/wenxy/tcov_diff_nodes.csv')
-df2.to_csv('/public3/home/scg5453/wenxy/tcor_diff_nodes.csv')
+df1.to_csv('.../tcov_diff_nodes.csv')
+df2.to_csv('.../tcor_diff_nodes.csv')
     
     
     
