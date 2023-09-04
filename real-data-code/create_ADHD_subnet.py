@@ -3,10 +3,10 @@ import pandas as pd
 import torch
 import os
 
-path = '/public3/home/scg5453/wenxy/tensor_correlation/Peking_1/'
+path = '.../Data/Peking_1/'
 
-group_df = pd.read_csv('/public3/home/scg5453/wenxy/tensor_correlation/group_df1.csv')
-phenotypic_df = pd.read_csv('/public3/home/scg5453/wenxy/tensor_correlation/Peking_1_phenotypic.csv')
+group_df = pd.read_csv('.../Data/group_df1.csv')
+phenotypic_df = pd.read_csv('.../Data/Peking_1_phenotypic.csv')
 patient = list(phenotypic_df['ScanDir ID'])
 
 file_list = []
@@ -93,8 +93,8 @@ for i in range(len(file_list)):
 #np_array4 = subnet_tensor4.numpy()
 #np_array5 = subnet_tensor5.numpy()
 
-np.save('/public3/home/scg5453/wenxy/tensor_correlation/sort_ADHD_subnet1.np', subnet_tensor1)
-np.save('/public3/home/scg5453/wenxy/tensor_correlation/sort_ADHD_subnet2.np', subnet_tensor2)
-np.save('/public3/home/scg5453/wenxy/tensor_correlation/sort_ADHD_subnet3.np', subnet_tensor3)
-np.save('/public3/home/scg5453/wenxy/tensor_correlation/sort_ADHD_subnet4.np', subnet_tensor4)
-np.save('/public3/home/scg5453/wenxy/tensor_correlation/sort_ADHD_subnet5.np', subnet_tensor5)
+np.save('.../Data/sort_ADHD_subnet1.np', subnet_tensor1)
+np.save('.../Data/sort_ADHD_subnet2.np', subnet_tensor2)
+np.save('.../Data/sort_ADHD_subnet3.np', subnet_tensor3)
+np.save('.../Data/sort_ADHD_subnet4.np', subnet_tensor4)
+np.save('.../Data/sort_ADHD_subnet5.np', subnet_tensor5)
