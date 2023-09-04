@@ -207,5 +207,5 @@ for n in range(len(sample_list)):
 df1 = pd.DataFrame(tcov_pow_list)
 #df2 = pd.DataFrame(d2)
 
-df1.to_csv('/public3/home/scg5453/wenxy/tcor_pow.csv')
+df1.to_csv('.../tcor_pow.csv')
 
